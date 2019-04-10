@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Thực Hành Chuyên Sâu</title>
+	   <meta charset="utf-8" />
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">	function led1on() {	alert("Led 1 bật"); document.getElementById("demo").innerHTML = "Led 1 bật"; document.getElementById('myImage').src='http://www.w3schools.com/js/pic_bulbon.gif';	}	</script>
+<script type="text/javascript">	function led1off() {	alert("Led 1 tắt"); document.getElementById("demo").innerHTML = "Led 1 tắt"; document.getElementById('myImage').src='https://www.w3schools.com/html/pic_bulboff.gif';	}	</script>
+<script type="text/javascript">	function led2on() {	alert("Led 2 bật"); document.getElementById("demo2").innerHTML = "Led 2 bật"; document.getElementById('myImage2').src='http://www.w3schools.com/js/pic_bulbon.gif';	}	</script>
+<script type="text/javascript">	function led2off() {	alert("Led 2 tắt"); document.getElementById("demo2").innerHTML = "Led 2 tắt"; document.getElementById('myImage2').src='https://www.w3schools.com/html/pic_bulboff.gif';	}	</script>
+<script type="text/javascript">	function led3on() {	alert("Led 3 bật"); document.getElementById("demo3").innerHTML = "Led 3 bật"; document.getElementById('myImage3').src='http://www.w3schools.com/js/pic_bulbon.gif';	}	</script>
+<script type="text/javascript">	function led3off() {	alert("Led 3 tắt"); document.getElementById("demo3").innerHTML = "Led 3 tắt"; document.getElementById('myImage3').src='https://www.w3schools.com/html/pic_bulboff.gif';	}	</script>
+
+<script type="text/javascript">	function led1c() { document.getElementById("demo").innerHTML = "Led 1 bật"; document.getElementById('myImage').src='http://www.w3schools.com/js/pic_bulbon.gif';	}	</script>
+<script type="text/javascript">	function led1t() { document.getElementById("demo").innerHTML = "Led 1 tắt"; document.getElementById('myImage').src='https://www.w3schools.com/html/pic_bulboff.gif';	}	</script>
+<script type="text/javascript">	function led2c() { document.getElementById("demo2").innerHTML = "Led 2 bật"; document.getElementById('myImage2').src='http://www.w3schools.com/js/pic_bulbon.gif';	}	</script>
+<script type="text/javascript">	function led2t() { document.getElementById("demo2").innerHTML = "Led 2 tắt"; document.getElementById('myImage2').src='https://www.w3schools.com/html/pic_bulboff.gif';	}	</script>
+<script type="text/javascript">	function led3c() { document.getElementById("demo3").innerHTML = "Led 3 bật"; document.getElementById('myImage3').src='http://www.w3schools.com/js/pic_bulbon.gif';	}	</script>
+<script type="text/javascript">	function led3t() { document.getElementById("demo3").innerHTML = "Led 3 tắt"; document.getElementById('myImage3').src='https://www.w3schools.com/html/pic_bulboff.gif';	}	</script>
+</head>
+<body>
+	<div class="container" style="background-image: url(https://thuthuatnhanh.com/wp-content/uploads/2018/07/hinh-anh-thien-nhien-phong-canh-dep-nhat.jpg);">
+	  <h2 style="color: #E81A10; text-align: center;">Thực Hành Chuyên Sâu</h2>
+	  <br>
+	  <!-- Nav pills -->
+	  <ul class="nav nav-pills" role="tablist" style="background-color: lavender;">
+	    <li class="nav-item">
+	      <a class="nav-link" data-toggle="pill" href="#menu1">MyProfile</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link active" data-toggle="pill" href="#menu2">LedController</a>
+	    </li>
+	  </ul>
+
+	  <!-- Tab panes -->
+	<div class="tab-content">
+	    <div id="menu1" class="container tab-pane fade"><br>
+		    <div class="row">
+		  		<div class="col-sm-6">
+		  			<img src="https://scontent.fhan2-3.fna.fbcdn.net/v/t1.15752-9/55901853_297771210891586_317827592788901888_n.jpg?_nc_cat=108&_nc_oc=AQniU6iJKTi1qQuYfG-5EuNC5KiijrA1DyMgB42wu2PQhHtQBf3jDewXJ75ul7SzzYWycPgHzAKk2jr90Cp7HZP4&_nc_ht=scontent.fhan2-3.fna&oh=7bc52b3cf96f4963d1bb7570b476e431&oe=5D3F62C1" style="width: 300px; height: 400px; margin: 50px; border-radius: 50%;">
+		  		</div>
+		  		<div class="col-sm-6" style="font-family: Times New Roman; color: #0B2092; font-size: 16px; padding-top:80px; float: left;">
+		  			<h2 style="color: red;">Thông Tin Cá Nhân</h2><br/>
+		  			<p>Name: Nguyễn Tiến Đạt</p><br/>
+		  			<p>Dob: 21/03/1997</p><br/>
+		  			<p>Phone: 09xxxxxxxx</p><br/>
+		  			<p>Email: tiendat210397@gmail.com</p><br/>
+		  			<p>Address: Hà Nội, Việt Nam</p>
+		  		</div>
+		    </div>
+		    <!-- Footer -->
+		<footer class="page-footer font-small blue" style="background-image: url(https://scontent.fhan2-3.fna.fbcdn.net/v/t1.15752-9/s2048x2048/56320467_633723600410271_5321187372749029376_n.jpg?_nc_cat=108&_nc_oc=AQnJVJABl6l5fTC905TIYlPujwazN4hP1eRaV95R6sQnCCsPUJLbJEaQGFHDokE8j4CuuJd7Rv5qEyhRSpmQ4-JD&_nc_ht=scontent.fhan2-3.fna&oh=daabfbef1c5929a46770615b93788b49&oe=5D42C9E9); color: #fff;); color: #fff;">
+
+		  <!-- Copyright -->
+		  <div class="footer-copyright text-center py-3">Hot Line: 09xxxxxxxx
+		  </div>
+		  <!-- Copyright -->
+
+		</footer>
+		<!-- Footer -->
+		</div>
+	    <div id="menu2" class="container tab-pane active"><br>
+	      <h3 style="text-align: center; color: #142B86;">LED CONTROLLER</h3>
+	      <div class="row">
+	      	<div class="col-sm-4">
+	      		<h3 style="text-align: center; color: #142B86;">LED 1</h3>
+	      		<img  id="myImage" src="https://www.w3schools.com/html/pic_bulboff.gif" style="width: 200px;height: 250px;padding: 30px;margin-left:65px;">
+	      		<center><h2 id="demo" style="color: red;">led 1 tắt</h2></center>
+	      		<div class="row" style="padding: 15px; margin-left: 10px;">
+	      			<div class="col-sm-6">
+	      			<a href="#led1on"><button type="button" class="btn btn-primary" onclick="led1on()">Led1 On</button></a>
+	      			</div>
+	      			<div class="col-sm-6">
+	      			<a href="#led1off"><button type="button" class="btn btn-primary" onclick="led1off()">Led1 Off</button></a>
+	      			</div>
+	      		</div>
+	      		<div class="row" style="padding: 15px; margin-left: 20px;">
+	      			<div class="col-sm-6">
+	      			<a href="#led1+"><button type="button" class="btn btn-primary" onclick="led1c()">Led1 +</button></a>
+	      			</div>
+	      			<div class="col-sm-6">
+	      			<a href="#led1-"><button type="button" class="btn btn-primary" onclick="led1t()">Led1 -</button></a>
+	      			</div>
+	      		</div>
+	      	</div>
+	      	<div class="col-sm-4">
+	      		<h3 style="text-align: center; color: #142B86;">LED 2</h3>
+	      		<img id="myImage2" src="https://www.w3schools.com/html/pic_bulboff.gif" style="width: 200px;height: 250px;padding: 30px;margin-left:65px;">
+	      		<center><h2 id="demo2" style="color: red;">Led 2 tắt</h2></center>
+	      		<div class="row" style="padding: 15px; margin-left: 10px;">
+	      			<div class="col-sm-6">
+	      			<a href="#led2on"><button type="button" class="btn btn-primary" onclick="led2on()">Led2 On</button></a>
+	      			</div>
+	      			<div class="col-sm-6">
+	      			<a href="#led2off"><button type="button" class="btn btn-primary" onclick="led2off()">Led2 Off</button></a>
+	      			</div>
+	      		</div>
+	      		<div class="row" style="padding: 15px; margin-left: 20px;">
+	      			<div class="col-sm-6">
+	      			<a href="#led2+"><button type="button" class="btn btn-primary" onclick="led2c()">Led2 +</button></a>
+	      			</div>
+	      			<div class="col-sm-6">
+	      			<a href="#led2-"><button type="button" class="btn btn-primary" onclick="led2t()">Led2 -</button></a>
+	      			</div>
+	      		</div>
+	      	</div>
+	      	<div class="col-sm-4">
+	      		<h3 style="text-align: center; color: #142B86;">LED 3</h3>
+	      		<img id="myImage3" src="https://www.w3schools.com/html/pic_bulboff.gif" style="width: 200px;height: 250px;padding: 30px;margin-left:65px;">
+	      		<center><h2 id="demo3" style="color: red;">Led 3 tắt</h2></center>
+	      		<div class="row" style="padding: 15px; margin-left: 10px;">
+	      			<div class="col-sm-6">
+	      			<a href="#led3on"><button type="button" class="btn btn-primary" onclick="led3on()">Led3 On</button></a>
+	      			</div>
+	      			<div class="col-sm-6">
+	      			<a href="#led3off"><button type="button" class="btn btn-primary" onclick="led3off()">Led3 Off</button></a>
+	      			</div>
+	      		</div>
+	      		<div class="row" style="padding: 15px; margin-left: 20px;">
+	      			<div class="col-sm-6">
+	      			<a href="#led3+"><button type="button" class="btn btn-primary" onclick="led3c()">Led3 +</button></a>
+	      			</div>
+	      			<div class="col-sm-6">
+	      			<a href="#led3-"><button type="button" class="btn btn-primary" onclick="led3t()">Led3 -</button></a>
+	      			</div>
+	      		</div>
+	      	</div>
+	      </div>
+	      <!-- Footer -->
+		<footer class="page-footer font-small blue" style="background-image: url(https://scontent.fhan2-3.fna.fbcdn.net/v/t1.15752-9/s2048x2048/56320467_633723600410271_5321187372749029376_n.jpg?_nc_cat=108&_nc_oc=AQnJVJABl6l5fTC905TIYlPujwazN4hP1eRaV95R6sQnCCsPUJLbJEaQGFHDokE8j4CuuJd7Rv5qEyhRSpmQ4-JD&_nc_ht=scontent.fhan2-3.fna&oh=daabfbef1c5929a46770615b93788b49&oe=5D42C9E9); color: #fff;">
+
+		  <!-- Copyright -->
+		  <div class="footer-copyright text-center py-3">Hot Line: 09xxxxxxxx
+			  </div>
+		  <!-- Copyright -->
+
+		</footer>
+		<!-- Footer -->
+	    </div>
+	</div>
+</body>
+</html>
